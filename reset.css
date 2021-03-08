@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans",
+		"Droid Sans", "Helvetica Neue", Arial, sans-serif;
+	box-sizing: border-box;
+	background: white;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container {
+	max-height: calc(600px + 60px + 60px + 60px + 30px);
+	overflow: scroll;
+}
+
+:root {
+	--color-white: #fff;
+	--color-white-10: #f3f3f4;
+	--color-white-20: #e6e6e7;
+	--color-white-30: #dfdfdf;
+	--color-white-40: #e8e8e9;
+
+	--color-black: #000;
+	--color-black-20: #434350;
+
+	--color-navy-dark: #141424;
+
+	--color-red: #ff7585;
+
+	--color-blue-light: #e0e9ff;
+	--color-blue: #84a6ff;
+
+	--color-grey: #c4c4c8;
+	--color-grey-30: #b9b9bd;
+	--color-grey-70: #898991;
+	--color-grey-80: #575761;
+
+	--spacing-sm: 15px;
+	--spacing-sm-neg: -15px;
+	--spacing-reg: 30px;
+	--spacing-reg-neg: -30px;
+
+	--spacing-med: 40px;
+
+	--spacing-lrg: 60px;
+
+	--radius-full: 100%;
+
+	--fonts: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, Arial, sans-serif;
+}
+
+.app {
+	overflow: hidden;
+}
+
+body {
+	/* padding: 0 30px; */
+	display: flex;
+	flex-direction: column;
+}
