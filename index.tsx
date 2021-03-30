@@ -1,8 +1,14 @@
-import { h, render } from "preact"
+import React from "react"
+import ReactDOM from "react-dom"
+
 import App from "./src/App"
 
 import "./reset.css"
+import "./global.css"
 
-const root = document.getElementById("root")
-
-render(<App />, root!)
+ReactDOM.render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById("root")
+)

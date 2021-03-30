@@ -1,4 +1,4 @@
-import { h } from "preact"
+import React from "react"
 import styled from "@emotion/styled"
 import { Helmet } from "react-helmet"
 
